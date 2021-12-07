@@ -1,7 +1,5 @@
 def main():
-    input()
     str1 = input()
-    input()
     str2 = input()
     n = len(str1)
     m = len(str2)
