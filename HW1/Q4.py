@@ -57,8 +57,6 @@ if __name__ == '__main__':
     input2 = ''
     temp = file.readline()
     while temp != '':
-        input2 += temp.strip(
-
-        )
+        input2 += temp.strip()
         temp = file.readline()
     main(input1, input2)
