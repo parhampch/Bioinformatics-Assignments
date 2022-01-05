@@ -18,7 +18,6 @@ def main():
     print(find_limb_length(n, j, matrix))
 
 
-
 if __name__ == '__main__':
     main()
 
