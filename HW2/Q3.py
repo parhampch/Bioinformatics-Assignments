@@ -14,11 +14,10 @@ def main():
     graph = create_graph(dna_strings)
     result = dna_strings[0][:-1]
     current = graph[dna_strings[0][:-1]]
-    length = len(result)
-    for i in range(len(dna_strings) - length):
+    while current != dna_strings[0][:-1]:
         result += current[-1]
         current = graph[current]
-    print(result)
+    print(result[:len(dna_strings)])
 
 
 if __name__ == '__main__':
