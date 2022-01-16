@@ -63,7 +63,7 @@ def neighbor_joining(matrix, n, new_node):
 
 
 def main():
-    file = open('rosalind_ba7e (1).txt', 'r')
+    file = open('sample.txt', 'r')
     n = int(file.readline())
     matrix = []
     for line in file.readlines():
